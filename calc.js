@@ -104,7 +104,7 @@ let calculateAge = (birthDetails, currentYear, currentMonth, currentDate) => {
   //---------------------------------- on click event--------------------------------------
   
  age_btn.addEventListener("click", ageCalculate);
- // 
+ 
  document.querySelector("button").addEventListener("click",()=>{
   speech.text=result.textContent;
   window.speechSynthesis.speak(speech);
